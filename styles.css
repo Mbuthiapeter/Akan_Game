@@ -10,6 +10,7 @@
   /* Set gray background color and 100% height */
   .sidenav {
     padding-top: 20px;
+    background-image: url(image2.PNG);
     background-color: #f1f1f1;
     height: 100%;
   }
@@ -19,6 +20,21 @@
     background-color: #555;
     color: white;
     padding: 15px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  .feedback-center {
+    padding-top: 18%;
+  }
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 150%;
+    left: 50%;    
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
   
   /* On small screens, set height to 'auto' for sidenav and grid */
